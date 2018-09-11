@@ -5,9 +5,9 @@ SQL is a programming language that allows you to query data at a database. Below
 #### table name: dinosaurs
 | id | name   | diet | country_id |
 | --- | --- | --- | ---
-| 1 | Tove   | vegab | 1
+| 1 | Tove   | vegan | 1
 | 2 | Kevin  | vegetarian | 1
-| 3 | Victor | vegetarian | 2
+| 3 | Victor | vegan | 2
 | 4 | Elvin  | omnivore   | 3
 
 #### table name: countries
