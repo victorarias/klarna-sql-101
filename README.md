@@ -1,8 +1,6 @@
 # Binosaur SQL 101
 
-SQL is a programming language that allows you to query data at a database. Below you can find a description of its main parts with some examples.
-
-Assume you have the following two tables for the examples:
+SQL is a programming language that allows you to query data at a database. Below you can find a description of its main parts with some examples. Assume you have the following two tables that you want to query:
 
 #### table name: dinosaurs
 | id | name   | diet | country_id |
@@ -63,7 +61,7 @@ SELECT countries.continent, COUNT(*)
 FROM dinosaurs;
 ```
 
-Now lets say that you want to **count** those dinosaurs but per continent, so you know how many of them are from each continent. Now armed with the COUNT function you just need to add the GROUP BY clause. Here is an example of how to do that:
+Now lets say that you want to **count** those dinosaurs but per continent, so you know how many of them are on each continent. Now armed with the COUNT function you just need to add the GROUP BY clause. Here is an example of how to do that:
 
 ```sql
 SELECT countries.continent, COUNT(*)
